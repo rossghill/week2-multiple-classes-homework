@@ -4,12 +4,15 @@ class Bear
 
   def initialize(name)
     @name = name
-    @stomach_size = []
+    @stomach = []
   end
 
   def stomach_count
-    @stomach_size.length()
+    @stomach.length()
   end
 
+  def eats_fish(fish)
+    @stomach << fish
+  end
 
 end
