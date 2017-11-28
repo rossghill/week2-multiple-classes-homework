@@ -7,5 +7,8 @@ class River
     @fish_in_river = []
   end
 
+  def river_holds_fish
+    @fish_in_river.length()
+  end
 
 end
